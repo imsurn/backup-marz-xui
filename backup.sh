@@ -31,7 +31,6 @@ done
 while true; do
     cron_time="*/5 * * * *"
     echo "Cronjob is set to run every 5 minutes."
-    fi
 done
 
 
@@ -183,7 +182,7 @@ trim() {
 }
 
 IP=$(ip route get 1 | sed -n 's/^.*src \([0-9.]*\) .*$/\1/p')
-caption="${ACh1992}\n<code>${IP}</code>\nCreated by @imsurn"
+caption="${ACh1992}\n<code>${IP}</code>\nCreated by @imsurn "
 comment=$(echo -e "$caption" | sed 's/<code>//g;s/<\/code>//g')
 comment=$(trim "$comment")
 
