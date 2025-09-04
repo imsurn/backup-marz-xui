@@ -8,8 +8,7 @@ and send them to a Telegram bot.
 
 ---
 
-## Install Former & Lite Version  
-*(do not use for Marzban)*
+## Install Latest Version  
 
 ```bash
 bash <(curl -Ls https://raw.githubusercontent.com/imsurn/backup-marz-xui/main/backup.sh)
